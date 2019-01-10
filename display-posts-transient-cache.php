@@ -35,7 +35,7 @@ class BE_DPS_Transient_Cache {
 		if( empty( $atts['transient_key'] ) || empty( $atts['transient_expiration'] ) )
 			return $output;
 
-		$key = $this->sanitize_key( $atts['transient_key'] );
+		$key = $this->transient_key( $atts['transient_key'] );
 		$cache = get_transient( $key );
 
 		if( false === $cache ) {
