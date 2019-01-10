@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Display Posts - Transient Cache
  * Plugin URI: https://github.com/billerickson/Display-Posts-Transient-Cache
- * Description: Cache the shortcode output using transients
+ * Description: Cache the [display-posts] shortcode output using transients
  * Version: 1.0.0
  * Author: Bill Erickson
  * Author URI: https://www.billerickson.net
